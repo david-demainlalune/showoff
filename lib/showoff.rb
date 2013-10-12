@@ -37,6 +37,7 @@ class ShowOff < Sinatra::Application
   set :pres_template, nil
   set :showoff_config, nil
   set :encoding, nil
+  set :bind, '0.0.0.0'
 
   def initialize(app=nil)
     super(app)
